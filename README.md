@@ -50,8 +50,8 @@ For more on how `img2pdf` differs from traditional tools like `convert`, see:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/kartun83/merge-img-pdf.git
-    cd merge-img-pdf
+    git clone https://github.com/kartun83/nemo-convert-img-pdf.git
+    cd nemo-convert-img-pdf
     ```
 
 2. Install dependencies:
@@ -63,14 +63,17 @@ For more on how `img2pdf` differs from traditional tools like `convert`, see:
 3. Make the scripts executable:
 
     ```bash
-    chmod +x img2pdf_default.sh img2pdf_gui.sh
+    cd ./merge-img-pdf@kartun83
+    chmod +x convert_gui.sh img2pdf_default.sh img2pdf_gui.sh
     ```
 
 4. Copy `.nemo_action` files to your local actions directory:
 
     ```bash
+    cd ..
     mkdir -p ~/.local/share/nemo/actions
     cp actions/*.nemo_action ~/.local/share/nemo/actions/
+    cp ./merge-img-pdf@kartun83 -r ~/.local/share/nemo/actions/
     ```
 
 5. Restart Nemo:
