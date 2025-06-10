@@ -1,0 +1,77 @@
+[Nemo Action]
+Active=true
+
+Name=Merge to PDF (img2png)
+Comment=Merge selected images to a PDF with custom settings
+Exec=<merge-img-pdf@kartun83/img2pdf_gui.sh %F>
+Icon-Name=application-pdf
+Selection=notnone
+Extensions=png;jpg;jpeg;tiff;bmp
+Quote=double
+Dependencies=yad;img2pdf;convert
+
+# ----------------------
+# Multilingual translations
+# ----------------------
+Name[de]=Zu PDF zusammenführen (img2pdf)
+Comment[de]=Ausgewählte Bilder mit benutzerdefinierten Einstellungen zu einer PDF zusammenführen
+
+Name[fr]=Fusionner en PDF (img2pdf)
+Comment[fr]=Fusionne les images sélectionnées en un PDF avec des paramètres personnalisés
+
+Name[es]=Fusionar a PDF (img2pdf)
+Comment[es]=Fusiona imágenes seleccionadas en un PDF con configuración personalizada
+
+Name[es_AR]=Fusionar a PDF (img2pdf)
+Comment[es_AR]=Fusiona imágenes seleccionadas en un PDF con configuración personalizada
+
+Name[ru]=Объединить в PDF (img2pdf)
+Comment[ru]=Объединяет выбранные изображения в PDF с пользовательскими настройками
+
+Name[uk]=Об’єднати в PDF (img2pdf)
+Comment[uk]=Об’єднує вибрані зображення в PDF з власними налаштуваннями
+
+Name[pt_BR]=Mesclar para PDF (img2pdf)
+Comment[pt_BR]=Mescla imagens selecionadas em um PDF com configurações personalizadas
+
+Name[pl]=Scal do PDF (img2pdf)
+Comment[pl]=Scala wybrane obrazy do pliku PDF z własnymi ustawieniami
+
+Name[it]=Unisci in PDF (img2pdf)
+Comment[it]=Unisce immagini selezionate in un PDF con impostazioni personalizzate
+
+Name[nl]=Samenvoegen naar PDF (img2pdf)
+Comment[nl]=Voegt geselecteerde afbeeldingen samen tot een PDF met aangepaste instellingen
+
+Name[sv]=Sammanfoga till PDF (img2pdf)
+Comment[sv]=Sammanfoga valda bilder till en PDF med anpassade inställningar
+
+Name[fi]=Yhdistä PDF:ksi (img2pdf)
+Comment[fi]=Yhdistää valitut kuvat PDF:ään mukautetuilla asetuksilla
+
+Name[nb]=Slå sammen til PDF (img2pdf)
+Comment[nb]=Slår sammen valgte bilder til PDF med egendefinerte innstillinger
+
+Name[tr]=PDF olarak birleştir (img2pdf)
+Comment[tr]=Seçilen resimleri özel ayarlarla PDF'e birleştirir
+
+Name[cs]=Sloučit do PDF (img2pdf)
+Comment[cs]=Sloučí vybrané obrázky do PDF s vlastními nastaveními
+
+Name[hu]=PDF-be egyesít (img2pdf)
+Comment[hu]=Kiválasztott képek PDF-be egyesítése egyéni beállításokkal
+
+Name[ro]=Îmbinare în PDF (img2pdf)
+Comment[ro]=Îmbină imaginile selectate într-un PDF cu setări personalizate
+
+Name[ko]=PDF로 병합 (img2pdf)
+Comment[ko]=사용자 설정으로 선택한 이미지를 PDF로 병합
+
+Name[ja]=PDF に結合（img2pdf）
+Comment[ja]=選択した画像をカスタム設定で PDF に結合
+
+Name[zh_CN]=合并为 PDF（img2pdf）
+Comment[zh_CN]=使用自定义设置将所选图像合并为 PDF
+
+Name[ar]=دمج إلى PDF (img2pdf)
+Comment[ar]=دمج الصور المحددة إلى PDF باستخدام إعدادات مخصصة

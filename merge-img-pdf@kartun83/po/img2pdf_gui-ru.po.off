@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nemo-merge-to-pdf\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-09 19:40-0300\n"
+"PO-Revision-Date: 2025-06-10\n"
+"Last-Translator: Aleksei Tveritinov <kartun@yandex.ru>\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "System Information"
+msgstr "Системная информация"
+
+msgid "OS"
+msgstr "ОС"
+
+msgid "Not installed"
+msgstr "Не установлено"
+
+msgid "Temp Directory"
+msgstr "Временная папка"
+
+msgid "Cleaning up temporary files..."
+msgstr "Очистка временных файлов..."
+
+msgid "Temporary files removed"
+msgstr "Временные файлы удалены"
+
+msgid "Failed to remove temp files"
+msgstr "Ошибка удаления временных файлов"
+
+msgid "User Settings"
+msgstr "Пользовательские настройки"
+
+msgid "PDF Merger (img2pdf)"
+msgstr "Объединение в PDF (img2pdf)"
+
+msgid "Output Filename"
+msgstr "Имя выходного файла"
+
+msgid "Page Size"
+msgstr "Размер страницы"
+
+msgid "Orientation"
+msgstr "Ориентация"
+
+msgid "Portrait"
+msgstr "Книжная"
+
+msgid "Landscape"
+msgstr "Альбомная"
+
+msgid "Resize Method"
+msgstr "Метод изменения размера"
+
+msgid "None"
+msgstr "Нет"
+
+msgid "Fit to Page"
+msgstr "Вписать в страницу"
+
+msgid "Stretch to Page"
+msgstr "Растянуть на страницу"
+
+msgid "Quality (1-100)"
+msgstr "Качество (1-100)"
+
+msgid "Save as default"
+msgstr "Сохранить по умолчанию"
+
+msgid "Output"
+msgstr "Выходной файл"
+
+msgid "Quality"
+msgstr "Качество"
+
+msgid "Save settings as default"
+msgstr "Сохранить настройки по умолчанию"
+
+msgid "Saving user defaults to"
+msgstr "Сохранение настроек по умолчанию в"
+
+msgid "User did not request to save settings"
+msgstr "Пользователь не сохранял настройки"
+
+msgid "Image Processing"
+msgstr "Обработка изображений"
+
+msgid "Target Dimensions"
+msgstr "Целевые размеры"
+
+msgid "Quality Setting"
+msgstr "Настройка качества"
+
+msgid "Input Files"
+msgstr "Входные файлы"
+
+msgid "Processing"
+msgstr "Обработка"
+
+msgid "ERROR: Failed to process"
+msgstr "ОШИБКА: Не удалось обработать"
+
+msgid "Successfully processed"
+msgstr "Успешно обработано"
+
+msgid "Conversion Started"
+msgstr "Конвертация начата"
+
+msgid "User cancelled operation"
+msgstr "Операция отменена пользователем"
+
+msgid "Final Output File"
+msgstr "Итоговый выходной файл"
+
+msgid "Adjusted Page Size for Landscape"
+msgstr "Скорректированный размер для альбомной ориентации"
+
+msgid "Image processing failed"
+msgstr "Ошибка обработки изображений"
+
+msgid "Image processing failed\\nSee"
+msgstr "Ошибка обработки изображений\\nСмотрите"
+
+msgid "for details"
+msgstr "подробности"
+
+msgid "PDF Generation"
+msgstr "Создание PDF"
+
+msgid "PDF successfully created"
+msgstr "PDF успешно создан"
+
+msgid "File size"
+msgstr "Размер файла"
+
+msgid "PDF creation failed with exit code"
+msgstr "Ошибка создания PDF с кодом"
+
+msgid "PDF creation failed (code"
+msgstr "Ошибка создания PDF (код"
+
+msgid "See"
+msgstr "Смотрите"
+
+msgid "Conversion Completed"
+msgstr "Конвертация завершена"

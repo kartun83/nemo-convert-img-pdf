@@ -1,0 +1,205 @@
+# Aleksei Tveritinov <kartun@yandex.ru>, 2025.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: nemo-merge-to-pdf\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-09 19:40-0300\n"
+"PO-Revision-Date: 2025-06-09 23:05\n"
+"Last-Translator: kartun <kartun@yandex.ru>\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: nemo-merge-to-pdf\n"
+"X-Crowdin-Project-ID: 798322\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: img2pdf_gui.pot\n"
+"X-Crowdin-File-ID: 1\n"
+
+#: img2pdf_gui.sh:47
+msgid "System Information"
+msgstr "Información del sistema"
+
+#: img2pdf_gui.sh:48
+msgid "OS"
+msgstr "SO"
+
+#: img2pdf_gui.sh:49 img2pdf_gui.sh:51
+msgid "Not installed"
+msgstr "No instalado"
+
+#: img2pdf_gui.sh:52
+msgid "Temp Directory"
+msgstr "Directorio temporal"
+
+#: img2pdf_gui.sh:58
+msgid "Cleaning up temporary files..."
+msgstr "Limpiando archivos temporales..."
+
+#: img2pdf_gui.sh:59
+msgid "Temporary files removed"
+msgstr "Archivos temporales eliminados"
+
+#: img2pdf_gui.sh:59
+msgid "Failed to remove temp files"
+msgstr "Error al eliminar archivos temporales"
+
+#: img2pdf_gui.sh:76
+msgid "User Settings"
+msgstr "Ajustes de usuario"
+
+#: img2pdf_gui.sh:79
+msgid "PDF Merger (img2pdf)"
+msgstr "Merger PDF (img2pdf)"
+
+#: img2pdf_gui.sh:81
+msgid "Output Filename"
+msgstr "Nombre de archivo de salida"
+
+#: img2pdf_gui.sh:82 img2pdf_gui.sh:95
+msgid "Page Size"
+msgstr "Tamaño de página"
+
+#: img2pdf_gui.sh:83 img2pdf_gui.sh:96
+msgid "Orientation"
+msgstr "Orientación"
+
+#: img2pdf_gui.sh:83
+msgid "Portrait"
+msgstr "Retrato"
+
+#: img2pdf_gui.sh:83 img2pdf_gui.sh:197
+msgid "Landscape"
+msgstr "Paisaje"
+
+#: img2pdf_gui.sh:84 img2pdf_gui.sh:97 img2pdf_gui.sh:126
+msgid "Resize Method"
+msgstr "Redimensionar Método"
+
+#: img2pdf_gui.sh:84 img2pdf_gui.sh:143
+msgid "None"
+msgstr "Ninguna"
+
+#: img2pdf_gui.sh:84 img2pdf_gui.sh:137
+msgid "Fit to Page"
+msgstr "Ajustar a la página"
+
+#: img2pdf_gui.sh:84 img2pdf_gui.sh:140
+msgid "Stretch to Page"
+msgstr "Estilo a la página"
+
+#: img2pdf_gui.sh:86
+msgid "Quality (1-100)"
+msgstr "Calidad (1-100)"
+
+#: img2pdf_gui.sh:87
+msgid "Save as default"
+msgstr "Guardar como predeterminado"
+
+#: img2pdf_gui.sh:94
+msgid "Output"
+msgstr "Salida"
+
+#: img2pdf_gui.sh:99
+msgid "Quality"
+msgstr "Calidad"
+
+#: img2pdf_gui.sh:100
+msgid "Save settings as default"
+msgstr "Guardar ajustes por defecto"
+
+#: img2pdf_gui.sh:103
+msgid "Saving user defaults to"
+msgstr "Guardando el usuario por defecto a"
+
+#: img2pdf_gui.sh:114
+msgid "User did not request to save settings"
+msgstr "El usuario no solicitó guardar la configuración"
+
+#: img2pdf_gui.sh:125
+msgid "Image Processing"
+msgstr "Procesamiento de imagen"
+
+#: img2pdf_gui.sh:127
+msgid "Target Dimensions"
+msgstr "Target Dimensions"
+
+#: img2pdf_gui.sh:128
+msgid "Quality Setting"
+msgstr "Ajustes de calidad"
+
+#: img2pdf_gui.sh:129 img2pdf_gui.sh:184
+msgid "Input Files"
+msgstr "Archivos de entrada"
+
+#: img2pdf_gui.sh:134
+msgid "Processing"
+msgstr "Procesando"
+
+#: img2pdf_gui.sh:149
+msgid "ERROR: Failed to process"
+msgstr "ERROR: Error al procesar"
+
+#: img2pdf_gui.sh:154
+msgid "Successfully processed"
+msgstr "Procesado con éxito"
+
+#: img2pdf_gui.sh:182
+msgid "Conversion Started"
+msgstr "Conversión iniciada"
+
+#: img2pdf_gui.sh:188
+msgid "User cancelled operation"
+msgstr "Operación cancelada por usuario"
+
+#: img2pdf_gui.sh:193
+msgid "Final Output File"
+msgstr "Archivo de salida final"
+
+#: img2pdf_gui.sh:199
+msgid "Adjusted Page Size for Landscape"
+msgstr "Tamaño de página ajustado para Landscape"
+
+#: img2pdf_gui.sh:204
+msgid "Image processing failed"
+msgstr "Procesamiento de imagen fallido"
+
+#: img2pdf_gui.sh:205
+msgid "Image processing failed\\nSee"
+msgstr "El procesamiento de imágenes falló\\nVer"
+
+#: img2pdf_gui.sh:205 img2pdf_gui.sh:220
+msgid "for details"
+msgstr "para detalles"
+
+#: img2pdf_gui.sh:210
+msgid "PDF Generation"
+msgstr "Generación de PDF"
+
+#: img2pdf_gui.sh:215
+msgid "PDF successfully created"
+msgstr "PDF creado correctamente"
+
+#: img2pdf_gui.sh:216
+msgid "File size"
+msgstr "Tamaño del archivo"
+
+#: img2pdf_gui.sh:219
+msgid "PDF creation failed with exit code"
+msgstr "Falló la creación de PDF con código de salida"
+
+#: img2pdf_gui.sh:220
+msgid "PDF creation failed (code"
+msgstr "Error al crear PDF (código"
+
+#: img2pdf_gui.sh:220
+msgid "See"
+msgstr "Ver"
+
+#: img2pdf_gui.sh:224
+msgid "Conversion Completed"
+msgstr "Conversión completada"
+

@@ -1,0 +1,76 @@
+[Nemo Action]
+Active=true
+Name=Merge to PDF (ImageMagik)
+Comment=Merge selected images to a PDF with custom settings
+Exec=<merge-img-pdf@kartun83/convert_gui.sh %F>
+Icon-Name=application-pdf
+Selection=notnone
+Extensions=png;jpg;jpeg;tiff;bmp
+Quote=double
+Dependencies=yad;convert
+
+# ----------------------
+# Multilingual translations
+# ----------------------
+Name[de]=Zu PDF zusammenführen (ImageMagik)
+Comment[de]=Ausgewählte Bilder mit benutzerdefinierten Einstellungen zu einer PDF zusammenführen
+
+Name[fr]=Fusionner en PDF (ImageMagik)
+Comment[fr]=Fusionne les images sélectionnées en un PDF avec des paramètres personnalisés
+
+Name[es]=Fusionar a PDF (ImageMagik)
+Comment[es]=Fusiona imágenes seleccionadas en un PDF con configuración personalizada
+
+Name[es_AR]=Fusionar a PDF (ImageMagik)
+Comment[es_AR]=Fusiona imágenes seleccionadas en un PDF con configuración personalizada
+
+Name[ru]=Объединить в PDF (ImageMagik)
+Comment[ru]=Объединяет выбранные изображения в PDF с пользовательскими настройками
+
+Name[uk]=Об’єднати в PDF (ImageMagik)
+Comment[uk]=Об’єднує вибрані зображення в PDF з власними налаштуваннями
+
+Name[pt_BR]=Mesclar para PDF (ImageMagik)
+Comment[pt_BR]=Mescla imagens selecionadas em um PDF com configurações personalizadas
+
+Name[pl]=Scal do PDF (ImageMagik)
+Comment[pl]=Scala wybrane obrazy do pliku PDF z własnymi ustawieniami
+
+Name[it]=Unisci in PDF (ImageMagik)
+Comment[it]=Unisce immagini selezionate in un PDF con impostazioni personalizzate
+
+Name[nl]=Samenvoegen naar PDF (ImageMagik)
+Comment[nl]=Voegt geselecteerde afbeeldingen samen tot een PDF met aangepaste instellingen
+
+Name[sv]=Sammanfoga till PDF (ImageMagik)
+Comment[sv]=Sammanfoga valda bilder till en PDF med anpassade inställningar
+
+Name[fi]=Yhdistä PDF:ksi (ImageMagik)
+Comment[fi]=Yhdistää valitut kuvat PDF:ään mukautetuilla asetuksilla
+
+Name[nb]=Slå sammen til PDF (ImageMagik)
+Comment[nb]=Slår sammen valgte bilder til PDF med egendefinerte innstillinger
+
+Name[tr]=PDF olarak birleştir (ImageMagik)
+Comment[tr]=Seçilen resimleri özel ayarlarla PDF'e birleştirir
+
+Name[cs]=Sloučit do PDF (ImageMagik)
+Comment[cs]=Sloučí vybrané obrázky do PDF s vlastními nastaveními
+
+Name[hu]=PDF-be egyesít (ImageMagik)
+Comment[hu]=Kiválasztott képek PDF-be egyesítése egyéni beállításokkal
+
+Name[ro]=Îmbinare în PDF (ImageMagik)
+Comment[ro]=Îmbină imaginile selectate într-un PDF cu setări personalizate
+
+Name[ko]=PDF로 병합 (ImageMagik)
+Comment[ko]=사용자 설정으로 선택한 이미지를 PDF로 병합
+
+Name[ja]=PDF に結合（ImageMagik）
+Comment[ja]=選択した画像をカスタム設定で PDF に結合
+
+Name[zh_CN]=合并为 PDF（ImageMagik）
+Comment[zh_CN]=使用自定义设置将所选图像合并为 PDF
+
+Name[ar]=دمج إلى PDF (ImageMagik)
+Comment[ar]=دمج الصور المحددة إلى PDF باستخدام إعدادات مخصصة

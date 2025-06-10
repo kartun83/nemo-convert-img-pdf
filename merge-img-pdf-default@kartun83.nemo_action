@@ -1,0 +1,76 @@
+[Nemo Action]
+Active=true
+Name=Merge to PDF (Default)
+Comment=Merge selected images to a PDF with default settings
+Exec=<merge-img-pdf@kartun83/img2pdf_default.sh %F>
+Icon-Name=application-pdf
+Selection=notnone
+Extensions=png;jpg;jpeg;tiff;bmp
+Quote=double
+Dependencies=yad;img2pdf
+
+# ----------------------
+# Multilingual translations
+# ----------------------
+Name[de]=Zu PDF zusammenführen (Standard)
+Comment[de]=Ausgewählte Bilder mit Standardeinstellungen zu einer PDF zusammenführen
+
+Name[fr]=Fusionner en PDF (Par défaut)
+Comment[fr]=Fusionne les images sélectionnées en un PDF avec les paramètres par défaut
+
+Name[es]=Fusionar a PDF (Predeterminado)
+Comment[es]=Fusiona imágenes seleccionadas en un PDF con configuración predeterminada
+
+Name[es_AR]=Fusionar a PDF (Predeterminado)
+Comment[es_AR]=Fusiona imágenes seleccionadas en un PDF con configuración predeterminada
+
+Name[ru]=Объединить в PDF (По умолчанию)
+Comment[ru]=Объединяет выбранные изображения в PDF с настройками по умолчанию
+
+Name[uk]=Об’єднати в PDF (За замовчуванням)
+Comment[uk]=Об’єднує вибрані зображення в PDF з налаштуваннями за замовчуванням
+
+Name[pt_BR]=Mesclar para PDF (Padrão)
+Comment[pt_BR]=Mescla imagens selecionadas em um PDF com configurações padrão
+
+Name[pl]=Scal do PDF (Domyślne)
+Comment[pl]=Scala wybrane obrazy do pliku PDF z domyślnymi ustawieniami
+
+Name[it]=Unisci in PDF (Predefinito)
+Comment[it]=Unisce immagini selezionate in un PDF con impostazioni predefinite
+
+Name[nl]=Samenvoegen naar PDF (Standaard)
+Comment[nl]=Voegt geselecteerde afbeeldingen samen tot een PDF met standaardinstellingen
+
+Name[sv]=Sammanfoga till PDF (Standard)
+Comment[sv]=Sammanfoga valda bilder till en PDF med standardinställningar
+
+Name[fi]=Yhdistä PDF:ksi (Oletus)
+Comment[fi]=Yhdistää valitut kuvat PDF-tiedostoksi oletusasetuksilla
+
+Name[nb]=Slå sammen til PDF (Standard)
+Comment[nb]=Slår sammen valgte bilder til PDF med standardinnstillinger
+
+Name[tr]=PDF olarak birleştir (Varsayılan)
+Comment[tr]=Seçilen resimleri varsayılan ayarlarla PDF'e birleştirir
+
+Name[cs]=Sloučit do PDF (Výchozí)
+Comment[cs]=Sloučí vybrané obrázky do PDF s výchozím nastavením
+
+Name[hu]=PDF-be egyesít (Alapértelmezett)
+Comment[hu]=Kiválasztott képek PDF-be egyesítése alapértelmezett beállításokkal
+
+Name[ro]=Îmbinare în PDF (Implicit)
+Comment[ro]=Îmbină imaginile selectate într-un PDF cu setări implicite
+
+Name[ko]=PDF로 병합 (기본값)
+Comment[ko]=선택한 이미지를 기본 설정으로 PDF로 병합
+
+Name[ja]=PDF に結合（デフォルト）
+Comment[ja]=選択した画像をデフォルト設定で PDF に結合
+
+Name[zh_CN]=合并为 PDF（默认）
+Comment[zh_CN]=使用默认设置将所选图像合并为 PDF
+
+Name[ar]=دمج إلى PDF (افتراضي)
+Comment[ar]=دمج الصور المحددة إلى PDF باستخدام الإعدادات الافتراضية

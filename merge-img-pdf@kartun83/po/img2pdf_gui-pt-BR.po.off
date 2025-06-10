@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nemo-merge-to-pdf\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-09 19:40-0300\n"
+"PO-Revision-Date: 2025-06-10\n"
+"Last-Translator: Aleksei Tveritinov <kartun@yandex.ru>\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "System Information"
+msgstr "Informações do Sistema"
+
+msgid "OS"
+msgstr "SO"
+
+msgid "Not installed"
+msgstr "Não instalado"
+
+msgid "Temp Directory"
+msgstr "Diretório Temporário"
+
+msgid "Cleaning up temporary files..."
+msgstr "Limpando arquivos temporários..."
+
+msgid "Temporary files removed"
+msgstr "Arquivos temporários removidos"
+
+msgid "Failed to remove temp files"
+msgstr "Falha ao remover arquivos temporários"
+
+msgid "User Settings"
+msgstr "Configurações do Usuário"
+
+msgid "PDF Merger (img2pdf)"
+msgstr "Fusão de PDF (img2pdf)"
+
+msgid "Output Filename"
+msgstr "Nome do Arquivo de Saída"
+
+msgid "Page Size"
+msgstr "Tamanho da Página"
+
+msgid "Orientation"
+msgstr "Orientação"
+
+msgid "Portrait"
+msgstr "Retrato"
+
+msgid "Landscape"
+msgstr "Paisagem"
+
+msgid "Resize Method"
+msgstr "Método de Redimensionamento"
+
+msgid "None"
+msgstr "Nenhum"
+
+msgid "Fit to Page"
+msgstr "Ajustar à Página"
+
+msgid "Stretch to Page"
+msgstr "Esticar para Página"
+
+msgid "Quality (1-100)"
+msgstr "Qualidade (1-100)"
+
+msgid "Save as default"
+msgstr "Salvar como padrão"
+
+msgid "Output"
+msgstr "Saída"
+
+msgid "Quality"
+msgstr "Qualidade"
+
+msgid "Save settings as default"
+msgstr "Salvar configurações como padrão"
+
+msgid "Saving user defaults to"
+msgstr "Salvando padrões do usuário em"
+
+msgid "User did not request to save settings"
+msgstr "Usuário não solicitou salvar configurações"
+
+msgid "Image Processing"
+msgstr "Processamento de Imagem"
+
+msgid "Target Dimensions"
+msgstr "Dimensões Alvo"
+
+msgid "Quality Setting"
+msgstr "Configuração de Qualidade"
+
+msgid "Input Files"
+msgstr "Arquivos de Entrada"
+
+msgid "Processing"
+msgstr "Processando"
+
+msgid "ERROR: Failed to process"
+msgstr "ERRO: Falha ao processar"
+
+msgid "Successfully processed"
+msgstr "Processado com sucesso"
+
+msgid "Conversion Started"
+msgstr "Conversão Iniciada"
+
+msgid "User cancelled operation"
+msgstr "Operação cancelada pelo usuário"
+
+msgid "Final Output File"
+msgstr "Arquivo Final de Saída"
+
+msgid "Adjusted Page Size for Landscape"
+msgstr "Tamanho de Página Ajustado para Paisagem"
+
+msgid "Image processing failed"
+msgstr "Falha no processamento de imagem"
+
+msgid "Image processing failed\\nSee"
+msgstr "Falha no processamento de imagem\\nVeja"
+
+msgid "for details"
+msgstr "para detalhes"
+
+msgid "PDF Generation"
+msgstr "Geração de PDF"
+
+msgid "PDF successfully created"
+msgstr "PDF criado com sucesso"
+
+msgid "File size"
+msgstr "Tamanho do arquivo"
+
+msgid "PDF creation failed with exit code"
+msgstr "Falha na criação do PDF com código"
+
+msgid "PDF creation failed (code"
+msgstr "Falha na criação do PDF (código"
+
+msgid "See"
+msgstr "Veja"
+
+msgid "Conversion Completed"
+msgstr "Conversão Concluída"
