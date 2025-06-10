@@ -1,7 +1,23 @@
 #!/bin/bash
+
+# Enhanced Configuration
+CONFIG_FILE="$HOME/.config/nemo_img2pdf.conf"
+LOG_FILE="$HOME/nemo_img2pdf.log"
+LOGGING_ENABLED="${LOGGING_ENABLED:-false}"
+
 set +H  # Disable ! history expansion
 
+TEMP_DIR=$(mktemp -d)
+# Only set up logging if enabled
+if [ "$LOGGING_ENABLED" = "true" ]; then
+    exec 3>>"$LOG_FILE"  # Dedicated file descriptor for logging
+else
+    exec 3>/dev/null     # Redirect to /dev/null when logging is disabled
+fi
 
+#===============================================
+# Translation function
+#===============================================
 # Translation function
 translate() {
     local lang="${LANG%%.*}"
@@ -46,10 +62,6 @@ translate() {
     fi
 }
 
-# Enhanced Configuration
-CONFIG_FILE="$HOME/.config/nemo_img2pdf.conf"
-LOG_FILE="$HOME/nemo_img2pdf.log"
-
 # Load defaults if available
 if [ -f "$CONFIG_FILE" ]; then
     source "$CONFIG_FILE"
@@ -63,21 +75,26 @@ DEFAULT_RESIZE_METHOD="${DEFAULT_RESIZE_METHOD:-None}"
 DEFAULT_DPI="${DEFAULT_DPI:-300}"
 DEFAULT_QUALITY="${DEFAULT_QUALITY:-90}"
 
-TEMP_DIR=$(mktemp -d)
-exec 3>>"$LOG_FILE"  # Dedicated file descriptor for logging
-
 # Enhanced Logging Functions
 log() {
-    echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" >&3
+    if [ "$LOGGING_ENABLED" = "true" ]; then
+        echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" >&3
+    fi
 }
 
 log_section() {
-    echo -e "\n===== $1 =====" >&3
+    if [ "$LOGGING_ENABLED" = "true" ]; then
+        echo -e "\n===== $1 =====" >&3
+    fi
 }
 
 log_command() {
-    log "Executing: $(printf "%q " "$@")"
-    "$@" > >(tee -a "$LOG_FILE" >&3) 2> >(tee -a "$LOG_FILE" >&2)
+    if [ "$LOGGING_ENABLED" = "true" ]; then
+        log "Executing: $(printf "%q " "$@")"
+        "$@" > >(tee -a "$LOG_FILE" >&3) 2> >(tee -a "$LOG_FILE" >&2)
+    else
+        "$@"
+    fi
     return $?
 }
 
